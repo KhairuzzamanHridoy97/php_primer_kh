@@ -8,9 +8,26 @@
 </head>
 <body>
     <!-- Basic HTML Part -->
-    <h2>Hello World</h2>
-    -- --  -- 
     <h1>This is PHP </h1>
+
+    <!-- Follow those link -->
+    <ul>
+        <li>
+            <a href="array.php">Simple Array</a>
+        </li>
+        <li>
+            <a href="forloop.php">For Loop</a>
+        </li>
+        <li>
+            <a href="doWhileLoop.php">Do While Loop</a>
+        </li>
+        <li>
+            <a href="ifstatement.php">If StateMent</a>
+        </li>
+        <!-- <li>
+            <a href=""></a>
+        </li> -->
+    </ul>
 
     <!-- Basic PHP Part -->
 
