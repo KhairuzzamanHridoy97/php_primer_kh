@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swicth Statement</title>
+    <title>ForLoop PHP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">Navbar</a>
@@ -33,25 +34,17 @@
             </div>
         </div>
     </nav>
+    <h1>For Loop</h1>
     <?php
-    echo "<h1>Switch StateMent</h1>";
-    $grade ="A+";
+        // for loop
+       for ($count =0 ; $count <11; $count++){
+            echo "<h3> Hello World</h3>";
+        }
 
-    switch($grade){
-        case 'A+':
-            echo '<h4 class="text-success">Number is 80-100 </h4>';
-            break;
-        case 'A':
-            echo '<h4 class="text-success">Number is 70-79</h4>';
-            break;    
-        case 'B':
-            echo '<h4 class="text-success">Number is 60-69</h4>';
-            break;
-        default:
-            echo '<h4 class="text-danger">Failed</h4>';
-            break;        
-    }
-
+        // example-2
+        for($num=1;$num<7; $num++){
+            echo "<h3 class='text-danger'>The number is: $num </h3>";
+        }
     ?>
 </body>
 </html>
