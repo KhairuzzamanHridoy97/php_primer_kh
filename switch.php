@@ -29,6 +29,9 @@
                 <li class="nav-item">
                 <a class="nav-link" href="switch.php">Switch Case</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="array.php">Array</a>
+                </li>
             </ul>
             </div>
         </div>
