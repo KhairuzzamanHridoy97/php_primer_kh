@@ -42,20 +42,23 @@
     <h1 class="text-center text-danger m-2">Array</h1>
 
     <?php
-        $num = 3;
+        // $num = 3;
 
-        $numbers = array(1,2,3,4,5,6,7,8,9,10,11,12);
-        echo $numbers[3];
+        // $numbers = array(1,2,3,4,5,6,7,8,9,10,11,12);
+        // echo $numbers[3];
 
-        echo "<p>$numbers[11]<p>";
+        // echo "<p>$numbers[11]<p>";
 
 
-        $size = count($numbers);
-        echo"<h4>The size of  arrays: $size</h4>";
+        // $size = count($numbers);
+        // echo"<h4>The size of  arrays: $size</h4>";
 
-        for($count=0; $count<$size; $count++){
-            echo "<p>$numbers[$count]</p>";
-        };
+        // for($count=0; $count<$size; $count++){
+        //     echo "<p>$numbers[$count]</p>";
+        // };
+
+        $numbers = array(11,22,33,44,55,66,77,88,99);
+        echo "<h4>The position of 67 number is : $numbers[67]</h4>" ;
     ?>
 
 
